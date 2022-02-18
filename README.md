@@ -1,6 +1,7 @@
 # rust_study
 $ cargo run
 
+
 ## 2/17
 [5강]
     println!("size of a char: {}", std::mem::size_of<char>()); //4bytes
