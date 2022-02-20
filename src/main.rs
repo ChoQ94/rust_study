@@ -2,13 +2,16 @@
 
 fn main() {
 
-    ////////// 2/17
-    println!("size of a char: {}", std::mem::size_of::<char>()); //4bytes
-    println!("size of a a: {}", "a".len()); //1
-    println!("size of a aaa: {}", "aaa".len());
 
-    let slice = "Hello world! 안녕";
-    println!("Slice is {} bytes and {} character", slice.len(), slice.chars().count());
+
+    
+    ////////// 2/17
+    // println!("size of a char: {}", std::mem::size_of::<char>()); //4bytes
+    // println!("size of a a: {}", "a".len()); //1
+    // println!("size of a aaa: {}", "aaa".len());
+
+    // let slice = "Hello world! 안녕";
+    // println!("Slice is {} bytes and {} character", slice.len(), slice.chars().count());
 
 
 
