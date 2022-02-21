@@ -4,7 +4,7 @@ fn main() {
 
 
 
-    
+     /// 10/10
     ////////// 2/17
     // println!("size of a char: {}", std::mem::size_of::<char>()); //4bytes
     // println!("size of a a: {}", "a".len()); //1
