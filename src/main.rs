@@ -1,6 +1,18 @@
+//macro = function that writes code.
+
 
 
 fn main() {
+    let city = "SEoul";
+    let year = 25;
+    println!("the city of {} in {}");
+    
+
+    ////////// 2/28
+    // let my_number = 9.;  // f64
+    // let other_number = 1; // i32
+
+    // println!("{}", my_number as i32+other_number);
 
     
     ////////// 2/17
