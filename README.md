@@ -1,7 +1,30 @@
 # rust_study
 $ cargo run
 
+
+## 2/28
+
+[9강]
+    () - empty tuple, unit void(void);
+    세미콜론의 차이 
+    fn em() -> (){
+        8;
+    }
+
+    fn em() -> i32{
+        8
+    }
+     => expression-based language!
+
+[8강]
+    string interpolation
+    println!({1} is {0}, me, ma)
+
+
 ## 2/17
+
+
+
 [5강]
     println!("size of a char: {}", std::mem::size_of<char>()); //4bytes
         standard, memory 

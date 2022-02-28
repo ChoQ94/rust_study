@@ -1,11 +1,20 @@
 //macro = function that writes code.
 
-
+fn number() -> 32{
+    8
+}
 
 fn main() {
-    let city = "SEoul";
-    let year = 25;
-    println!("the city of {} in {}");
+
+    let my_number = number();
+    
+
+
+    //////////2/28
+    // let city = "SEoul";
+    // let year = 25;
+    // println!("the city of {0} in{1} {0}", city=city,year=year);
+    // println!("{city} {year}");
     
 
     ////////// 2/28
@@ -14,7 +23,7 @@ fn main() {
 
     // println!("{}", my_number as i32+other_number);
 
-    
+
     ////////// 2/17
     // println!("size of a char: {}", std::mem::size_of::<char>()); //4bytes
     // println!("size of a a: {}", "a".len()); //1
