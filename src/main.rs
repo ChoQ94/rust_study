@@ -17,7 +17,6 @@ fn main() {
     println!("{}",zz);
 
     
-    
 
     //////////2/28
     // let city = "SEoul";
