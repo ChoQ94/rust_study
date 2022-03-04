@@ -10,6 +10,7 @@ fn print_number(one: i16, two: i16) -> i16{
     };
     mul
 }
+
 fn main() {
     let my_number = give_number(9,8);
     let zz = print_number(9,2);
