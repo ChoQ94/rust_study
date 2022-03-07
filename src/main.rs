@@ -3,7 +3,6 @@ fn give_number(one: i32, two: i32) -> i32{
     one * two
 }
 
-
 fn print_number(one: i16, two: i16) -> i16{
     let mul = {
         let first = 10;
