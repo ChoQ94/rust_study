@@ -9,7 +9,6 @@ fn print_number(one: i16, two: i16) -> i16{
         first * one * two
     };
     mul
-    
 }
 
 fn main() {
