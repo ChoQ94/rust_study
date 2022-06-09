@@ -3,7 +3,6 @@ $ cargo run
 
 
 ## 2/28
-
 [9강]
     () - empty tuple, unit void(void);
     세미콜론의 차이 
@@ -22,9 +21,6 @@ $ cargo run
 
 
 ## 2/17
-
-
-
 [5강]
     println!("size of a char: {}", std::mem::size_of<char>()); //4bytes
         standard, memory 
