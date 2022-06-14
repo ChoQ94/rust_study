@@ -1,22 +1,21 @@
-//macro = function that writes code.
-fn give_number(one: i32, two: i32) -> i32{
+fn give_number(one: i32, two: i32) -> i32 {
     one * two
 }
 
-fn print_number(one: i16, two: i16) -> i16{
-    let mul = {
-        let first = 10;
-        first * one * two
+fn print_number(one: i32, two: i32) {
+    let multi = one * two;
+    let alsong = {
+        let f = 10;
+        f * one * two
     };
-    mul
+    println!("{}", multi);
+    println!("{}", alsong);
 }
 
 fn main() {
-    let my_number = give_number(9,8);
-    let zz = print_number(9,2);
-    println!("{}", my_number);
-    println!("{}",zz);
-
+   let my_number = give_number(9, 8);
+   println!("{}", my_number);
+   print_number(7, 8);
     
 
     
